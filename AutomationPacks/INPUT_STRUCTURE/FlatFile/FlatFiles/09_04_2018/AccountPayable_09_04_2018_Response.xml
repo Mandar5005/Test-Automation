@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<APFile>
+    <APHeader>
+        <RecordType>FH</RecordType>
+        <FileLoadNumber>3164</FileLoadNumber>
+        <NumberOfRecords>3</NumberOfRecords>
+        <DateGenerated>20180228</DateGenerated>
+    </APHeader>
+    <APData>
+        <RecordType>TD</RecordType>
+        <InvoiceNumber>51131</InvoiceNumber>
+        <DisbursementType>COMMISSION</DisbursementType>
+        <AccountingYearMonth>201802</AccountingYearMonth>
+        <TaxID>4</TaxID>
+        <BrokerNo>BCM1019032018223113</BrokerNo>
+        <VendorNo>R344</VendorNo>
+        <PayeeType>BROKER</PayeeType>
+        <PayeeName>ANTHONY TAYLOR</PayeeName>
+        <PayeeAddress1>91 Sacramento</PayeeAddress1>
+        <PayeeAddress2>POST BOX NO. 4</PayeeAddress2>
+        <PayeeCity>ARGO</PayeeCity>
+        <PayeeStateCode>AL</PayeeStateCode>
+        <PayeeZipCode>968752</PayeeZipCode>
+        <PayeeCountry>USA</PayeeCountry>
+        <Amount>250.00</Amount>
+        <DisbursementDate>20180227</DisbursementDate>
+        <BankCode>BAD</BankCode>
+        <CheckNumber>9693</CheckNumber>
+        <RefundMethod>CHECK</RefundMethod>
+        <RefundReason>COMMISSION</RefundReason>
+        <RefundReasonDescription>Commission</RefundReasonDescription>
+        <UserID>billsuper1</UserID>
+    </APData>
+    <APData>
+        <RecordType>TD</RecordType>
+        <InvoiceNumber>51132</InvoiceNumber>
+        <DisbursementType>COMMISSION</DisbursementType>
+        <AccountingYearMonth>201802</AccountingYearMonth>
+        <TaxID>4</TaxID>
+        <BrokerNo>BCM1119032018223113</BrokerNo>
+        <VendorNo>R344</VendorNo>
+        <PayeeType>BROKER</PayeeType>
+        <PayeeName>WHITE BAKER</PayeeName>
+        <PayeeAddress1>91 100 MAIN ST</PayeeAddress1>
+        <PayeeAddress2>POST BOX NO. 130</PayeeAddress2>
+        <PayeeCity>AKRON</PayeeCity>
+        <PayeeStateCode>AL</PayeeStateCode>
+        <PayeeZipCode>968752</PayeeZipCode>
+        <PayeeCountry>USA</PayeeCountry>
+        <Amount>1172.50</Amount>
+        <DisbursementDate>20180227</DisbursementDate>
+        <BankCode>BAD</BankCode>
+        <CheckNumber>9694</CheckNumber>
+        <RefundMethod>CHECK</RefundMethod>
+        <RefundReason>COMMISSION</RefundReason>
+        <RefundReasonDescription>Commission</RefundReasonDescription>
+        <UserID>billsuper1</UserID>
+    </APData>
+</APFile>

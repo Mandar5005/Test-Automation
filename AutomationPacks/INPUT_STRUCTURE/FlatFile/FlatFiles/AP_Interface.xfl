@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<XFlat Name="ap_schema" Description="Schema for AP flat file">
+    <SequenceDef Name="APFile" Description="Entire flat file">
+        <RecordDef Name="APHeader" Description="Header record" RecSep="\#x0A;" MaxOccur="0">
+            <FieldDef Name="RecordType" MapToXml="ElementIfNotNull"  MinFieldLength="2" MaxFieldLength="2" />
+            <FieldDef Name="FileLoadNumber" MapToXml="ElementIfNotNull"  MinFieldLength="10" MaxFieldLength="10" LeadingFillerChars="0"  />
+            <FieldDef Name="NumberOfRecords" MapToXml="ElementIfNotNull" MinFieldLength="8" MaxFieldLength="8" LeadingFillerChars="0" />
+            <FieldDef Name="DateGenerated" MapToXml="ElementIfNotNull"   MinFieldLength="8" MaxFieldLength="8" />
+        </RecordDef>
+        <RecordDef Name="APData" Description="AP Detail record" RecSep="\#x0A;" MaxOccur="0">
+            <FieldDef Name="RecordType" MinFieldLength="2" MaxFieldLength="2" MapToXml="ElementIfNotNull" />
+            <FieldDef Name="InvoiceNumber" MinFieldLength="22" MaxFieldLength="22"  MapToXml="ElementIfNotNull"  LeadingFillerChars="0" />
+			<FieldDef Name="DisbursementType" MinFieldLength="10" MaxFieldLength="10"  MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />				  
+			<FieldDef Name="AccountingYearMonth" MinFieldLength="6" MaxFieldLength="6" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />
+			<FieldDef Name="TaxID"  MinFieldLength="25" MaxFieldLength="25" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />
+			<FieldDef Name="BrokerNo"  MinFieldLength="20" MaxFieldLength="20" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />
+			<FieldDef Name="VendorNo"  MinFieldLength="20" MaxFieldLength="20" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />
+			<FieldDef Name="AccountNo" MinFieldLength="20" MaxFieldLength="20" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />
+			<FieldDef Name="PolicyNo"  MinFieldLength="50" MaxFieldLength="50" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />					  
+			<FieldDef Name="PolicyEffectiveDate" MinFieldLength="10" MaxFieldLength="10" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />					  
+			<FieldDef Name="InsuredName" MinFieldLength="180" MaxFieldLength="180" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />					  
+			<FieldDef Name="PayeeType" MinFieldLength="30" MaxFieldLength="30" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />						  
+			<FieldDef Name="PayeeName"  MinFieldLength="180" MaxFieldLength="180" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />	
+			<FieldDef Name="PayeeAddress1" MinFieldLength="40" MaxFieldLength="40" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />
+			<FieldDef Name="PayeeAddress2" MinFieldLength="40" MaxFieldLength="40" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />					  
+			<FieldDef Name="PayeeCity" MinFieldLength="50" MaxFieldLength="50"  MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />				  
+			<FieldDef Name="PayeeStateCode" MinFieldLength="5" MaxFieldLength="5" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />				  
+			<FieldDef Name="PayeeZipCode" MinFieldLength="15" MaxFieldLength="15" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />
+			<FieldDef Name="PayeeCountry"  MinFieldLength="60" MaxFieldLength="60" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />
+			<FieldDef Name="Amount" MinFieldLength="22" MaxFieldLength="22" MapToXml="ElementIfNotNull"  LeadingFillerChars="0"/>
+			<FieldDef Name="DisbursementDate" MinFieldLength="10" MaxFieldLength="10" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />
+			<FieldDef Name="BankCode" MinFieldLength="30" MaxFieldLength="30" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />				  
+			<FieldDef Name="CheckNumber" MinFieldLength="20" MaxFieldLength="20" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />			  
+			<FieldDef Name="Originalchecknumber" MinFieldLength="22" MaxFieldLength="22" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />
+			<FieldDef Name="RefundMethod" MinFieldLength="10" MaxFieldLength="10" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />	  
+			<FieldDef Name="RefundReason" MinFieldLength="100" MaxFieldLength="100" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />
+			<FieldDef Name="RefundReasonDescription" MinFieldLength="1000" MaxFieldLength="1000" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />
+			<FieldDef Name="SupressCheckYN" MinFieldLength="1" MaxFieldLength="1" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />
+			<FieldDef Name="ClientID" MinFieldLength="20" MaxFieldLength="20" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />
+			<FieldDef Name="UserID" MinFieldLength="20" MaxFieldLength="20" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />
+			<FieldDef Name="SourcePolicyID" MinFieldLength="30" MaxFieldLength="30" MapToXml="ElementIfNotNull"  TrailingFillerChars=" " />
+        </RecordDef>
+    </SequenceDef>
+</XFlat>
