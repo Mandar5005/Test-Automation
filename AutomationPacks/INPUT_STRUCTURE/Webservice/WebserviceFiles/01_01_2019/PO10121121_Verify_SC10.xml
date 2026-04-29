@@ -1,0 +1,27 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:csr="http://com/majescomastek/stgicd/ws/meta/csrpolicyaccountserver">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <csr:service>
+         
+         <inputMsg>
+            
+            <PolicyAccountRequest>
+               
+               <AccountNo></AccountNo>
+               
+               <PolicyEffectiveDate>2018-02-02+05:30</PolicyEffectiveDate>
+               
+               <PolicyNo>POL20${RDATETIME}</PolicyNo>
+            </PolicyAccountRequest>
+         </inputMsg>
+         
+         <UserAuthentication>
+            
+            <UsernamePasswordAuth>
+               <Username>billsuper1</Username>
+               <Password>icd123</Password>
+            </UsernamePasswordAuth>
+         </UserAuthentication>
+      </csr:service>
+   </soapenv:Body>
+</soapenv:Envelope>

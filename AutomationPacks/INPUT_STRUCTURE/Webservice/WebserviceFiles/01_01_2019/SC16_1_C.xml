@@ -1,0 +1,45 @@
+<soapenv:Envelope xmlns:pay="http://com/majescomastek/stgicd/ws/meta/paymentinterface" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Header/>
+<soapenv:Body>
+<pay:service>
+<inputMsg>
+<PaymentDepositHeader>
+ <PaymentDepositNo>20180172</PaymentDepositNo>
+ <PaymentCount>1</PaymentCount>
+ <TotalDepositAmount>355</TotalDepositAmount>
+ <DepositDate>2019-01-01+05:30</DepositDate>
+ <BankAccountName>02</BankAccountName>
+ <CurrencyCode>USD</CurrencyCode>
+ <PaymentChannel>CHECK</PaymentChannel>
+<PaymentDetail>
+ <PaymentId>42718</PaymentId>
+ <PaymentAmount>355</PaymentAmount>
+ <AdditionaInformation>Payment</AdditionaInformation>
+ <PolicyNo>POL29${RDATETIME}</PolicyNo>
+ <PaymentFrom>INSURED</PaymentFrom>
+ <PaymentMethod>CHECK</PaymentMethod>
+ <PaymentPostMarkDate>2019-01-01+05:30</PaymentPostMarkDate>
+ <PaymentDate>2019-01-01+05:30</PaymentDate>
+ <PaymentReceivedDate>2019-01-01+05:30</PaymentReceivedDate>
+ <SourceSystemTransactionNo>238</SourceSystemTransactionNo>
+</PaymentDetail>
+ <SourceSystemDepositNo>20180172</SourceSystemDepositNo>
+</PaymentDepositHeader>
+<RequestHeader>
+ <CountOfDeposits>1</CountOfDeposits>
+ <CountOfRecords>3</CountOfRecords>
+ <CountOfTransactions>1</CountOfTransactions>
+ <SourceSystemRequestNo>30${RDATETIME}</SourceSystemRequestNo>
+ <TotalPaymentAmount>355</TotalPaymentAmount>
+ <RequestDate>2019-01-01+05:30</RequestDate>
+</RequestHeader>
+</inputMsg>
+<UserAuthentication>
+<UsernamePasswordAuth>
+ <Username>billsuper1</Username>
+ <Password>icd123</Password>
+</UsernamePasswordAuth>
+</UserAuthentication>
+</pay:service>
+</soapenv:Body>
+</soapenv:Envelope>

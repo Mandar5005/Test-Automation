@@ -1,0 +1,73 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:pay="http://com/majescomastek/stgicd/ws/meta/paymentinterface" >
+   <soapenv:Header/>
+   <soapenv:Body>
+      <pay:service>
+         
+         <inputMsg>
+            
+            <PaymentDepositHeader>
+               <BankAccountName>02</BankAccountName>
+               
+               <CurrencyCode>USD</CurrencyCode>
+               <DepositDate>2019-01-01+05:30</DepositDate>
+               <PaymentChannel>CHECK</PaymentChannel>
+               <PaymentCount>1</PaymentCount>
+               
+               <PaymentDepositNo>20180172</PaymentDepositNo>
+               
+               <PaymentDetail>
+                 
+                  
+                  
+                  <AdditionaInformation>Payment</AdditionaInformation>
+                  
+                  
+                  
+                  
+                  
+                  
+                  <PaymentAmount>427</PaymentAmount>
+                  
+                  <PaymentDate>2019-01-01+05:30</PaymentDate>
+                  <PaymentFrom>ACCOUNT</PaymentFrom>
+                  <PaymentId>42718</PaymentId>
+                  <PaymentMethod>CHECK</PaymentMethod>
+                  
+                  <PaymentPostMarkDate>2019-01-01+05:30</PaymentPostMarkDate>
+                  
+                  <PaymentReceivedDate>2019-01-01+05:30</PaymentReceivedDate>
+                  
+                  <PolicyEffectiveDate></PolicyEffectiveDate>
+                  
+                  <PolicyNo>POL29${RDATETIME}</PolicyNo>
+                  <SourceSystemTransactionNo>238</SourceSystemTransactionNo>
+               </PaymentDetail> 
+               <SourceSystemDepositNo>20180172</SourceSystemDepositNo>
+               <TotalDepositAmount>427</TotalDepositAmount>
+              </PaymentDepositHeader>
+            <RequestHeader>  
+               
+               <CountOfDeposits>1</CountOfDeposits>
+               
+               <CountOfRecords>3</CountOfRecords>
+              
+               <CountOfTransactions>1</CountOfTransactions>
+               
+               <RequestDate>2019-01-01+05:30</RequestDate>
+               
+               <SourceSystemRequestNo>30${RDATETIME}</SourceSystemRequestNo>
+               
+               <TotalPaymentAmount>427</TotalPaymentAmount>
+            </RequestHeader>
+         </inputMsg>
+         
+         <UserAuthentication>
+            
+            <UsernamePasswordAuth>
+               <Username>billsuper1</Username>
+               <Password>icd123</Password>
+            </UsernamePasswordAuth>
+         </UserAuthentication>
+      </pay:service>
+   </soapenv:Body>
+</soapenv:Envelope>
