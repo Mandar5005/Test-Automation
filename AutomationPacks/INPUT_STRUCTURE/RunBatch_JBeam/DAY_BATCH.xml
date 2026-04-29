@@ -1,0 +1,38 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://services.server.ws.monitor.stgmastek.com/">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<ser:runBatch>
+			<reqInstructionLog>
+				<entityValues>DAY_BATCH_POLICY=ALL;DAY_BATCH_ACCOUNT=ALL</entityValues>
+				<installationCode>${environment}</installationCode>
+				<instructingUser>jbeam</instructingUser>
+				<instructionParameters>
+					<name>BATCH_NAME</name>
+					<slNo>1</slNo>
+					<type>S</type>
+					<value>Jbeam Batch TEST Smoke1</value>
+				</instructionParameters>
+				<instructionParameters>
+					<name>BATCH_TYPE</name>
+					<slNo>2</slNo>
+					<type>S</type>
+					<value>SPECIAL</value>
+				</instructionParameters>
+				<instructionParameters>
+					<name>BATCH_RUN_DATE</name>
+					<slNo>3</slNo>
+					<type>TS</type>
+					<value>04/11/2019 23:59:59</value>
+				</instructionParameters>
+				<instructionParameters>
+					<name>SCHEDULE_DATE</name>
+					<slNo>4</slNo>
+					<type>TS</type>
+					<value>08/01/2017 00:00:00</value>
+				</instructionParameters>
+				<instructionTime>1323851561830</instructionTime>
+				<message>BSRUNBATCH</message>
+			</reqInstructionLog>
+		</ser:runBatch>
+	</soapenv:Body>
+</soapenv:Envelope>

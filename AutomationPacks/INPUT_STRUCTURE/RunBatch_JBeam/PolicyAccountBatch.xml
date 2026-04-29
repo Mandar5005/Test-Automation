@@ -1,0 +1,39 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://services.server.ws.monitor.stgmastek.com/">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<ser:runBatch>
+			<reqInstructionLog>
+				<entityValues>PRE=1;POLICY=UCPOL09015#0;POLICY=UCPOL09014#0;POLICY=BPOLE00001#0;POLICY=KPOLE00002#0;ACCOUNT=0009823555;ACCOUNT=0009823162;POST=1;POST=3</entityValues>
+				<!-- <entityValues>POLICY=POL-01#1</entityValues> -->
+				<installationCode>STGBillQC</installationCode>
+				<instructingUser>jbeam</instructingUser>
+				<instructionParameters>
+					<name>BATCH_NAME</name>
+					<slNo>1</slNo>
+					<type>S</type>
+					<value>Jbeam Batch TEST Smoke1</value>
+				</instructionParameters>
+				<instructionParameters>
+					<name>BATCH_TYPE</name>
+					<slNo>2</slNo>
+					<type>S</type>
+					<value>SPECIAL</value>
+				</instructionParameters>
+				<instructionParameters>
+					<name>BATCH_RUN_DATE</name>
+					<slNo>3</slNo>
+					<type>TS</type>
+					<value>04/10/2018 23:59:59</value>
+				</instructionParameters>
+				<instructionParameters>
+					<name>SCHEDULE_DATE</name>
+					<slNo>4</slNo>
+					<type>TS</type>
+					<value>08/01/2019 00:00:00</value>
+				</instructionParameters>
+				<instructionTime>1323851561830</instructionTime>
+				<message>BSRUNBATCH</message>
+			</reqInstructionLog>
+		</ser:runBatch>
+	</soapenv:Body>
+</soapenv:Envelope>
