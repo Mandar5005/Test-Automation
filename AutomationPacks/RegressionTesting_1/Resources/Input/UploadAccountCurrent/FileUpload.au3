@@ -1,0 +1,5 @@
+ControlFocus ("Open","","Edit1")
+Sleep(3000)
+ControlSetText("Open","","Edit1","D:\workspace\iTAF\RegressionTesting_1\Resources\Input\UploadAccountCurrent\Account_Upload_File.csv")
+Sleep(3000)
+ControlClick("Open","","Button1")
