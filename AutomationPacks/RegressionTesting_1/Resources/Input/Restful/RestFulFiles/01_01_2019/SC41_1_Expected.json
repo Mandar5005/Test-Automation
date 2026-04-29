@@ -1,0 +1,57 @@
+{
+  "OutputTransaction": {
+    "RequestHeader": {
+      "ProcessStatusFlag": "COMPLETED",
+      "RequestSeq": "40703",
+      "SourceSystemRequestNo": "09829650",
+      "SuccessFlag": "SUCCESS"
+    },
+    "TransactionResponse": [
+      {
+        "PolicyEffectiveDate": "2019-01-01",
+        "PolicyNo": "JSPD113072020224825",
+        "ProcessStatusFlag": "COMPLETED",
+        "SourceTransactionRequestNo": "108",
+        "SuccessFlag": "SUCCESS",
+        "TransactionEffDate": "2019-01-01",
+        "TransactionType": "NEW"
+      },
+      {
+        "PolicyEffectiveDate": "2019-01-01",
+        "PolicyNo": "JSPD113072020224825",
+        "ProcessStatusFlag": "COMPLETED",
+        "SourceTransactionRequestNo": "108",
+        "SuccessFlag": "SUCCESS",
+        "TransactionEffDate": "2019-01-01",
+        "TransactionType": "ENDORSEMENT"
+      },
+      {
+        "PolicyEffectiveDate": "2019-01-01",
+        "PolicyNo": "JSPD113072020224825",
+        "ProcessStatusFlag": "COMPLETED",
+        "SourceTransactionRequestNo": "108",
+        "SuccessFlag": "SUCCESS",
+        "TransactionEffDate": "2019-01-01",
+        "TransactionType": "ENDORSEMENT"
+      },
+      {
+        "PolicyEffectiveDate": "2019-01-01",
+        "PolicyNo": "JSPD113072020224825",
+        "ProcessStatusFlag": "COMPLETED",
+        "SourceTransactionRequestNo": "108",
+        "SuccessFlag": "SUCCESS",
+        "TransactionEffDate": "2019-01-01",
+        "TransactionType": "CANCELLATION"
+      },
+      {
+        "PolicyEffectiveDate": "2019-01-01",
+        "PolicyNo": "JSPD113072020224825",
+        "ProcessStatusFlag": "COMPLETED",
+        "SourceTransactionRequestNo": "108",
+        "SuccessFlag": "SUCCESS",
+        "TransactionEffDate": "2019-01-01",
+        "TransactionType": "REINSTATEMENT"
+      }
+    ]
+  }
+}
