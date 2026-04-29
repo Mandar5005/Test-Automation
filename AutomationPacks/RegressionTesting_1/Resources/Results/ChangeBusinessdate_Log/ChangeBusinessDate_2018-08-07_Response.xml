@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <ns2:serviceResponse xmlns:ns2="http://com/majescomastek/stgicd/ws/meta/changebusinessdayinterface">
+      <return>
+        <CurrentBusinessDay>
+          <BusinessDate>2018-08-07+05:30</BusinessDate>
+        </CurrentBusinessDay>
+        <RequestResponse>
+          <ProcessStatusFlag>COMPLETED</ProcessStatusFlag>
+          <SourceSystemRequestNo/>
+          <SuccessFlag>SUCCESS</SuccessFlag>
+        </RequestResponse>
+      </return>
+    </ns2:serviceResponse>
+  </soap:Body>
+</soap:Envelope>
