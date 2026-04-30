@@ -1,0 +1,27 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:chan="http://com/majescomastek/stgicd/ws/meta/changebusinessdayinterface">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <chan:service>
+         <!--Optional:-->
+        <inputMsg>
+				<NewBusinessDay>
+					<!--Optional:-->
+					<BusinessDate>2017-12-29</BusinessDate>
+				</NewBusinessDay>
+				<RequestHeader>
+					<!--Optional:-->
+					<SourceSystemRequestNo/>
+				</RequestHeader>
+			</inputMsg>
+			<!--Optional:-->
+			<UserAuthentication>
+				<!--Optional:-->
+				<UsernamePasswordAuth>
+					<Username>billsuper1</Username>
+					<Password>icd123</Password>
+				</UsernamePasswordAuth>
+				<!--Optional:-->
+			</UserAuthentication>
+      </chan:service>
+   </soapenv:Body>
+</soapenv:Envelope>
