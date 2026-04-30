@@ -1,0 +1,94 @@
+{
+  "InboundPremiumTransaction": {
+    "RequestHeader": {
+      "CountOfRecords": "1",
+      "CountOfTransactions": "1",
+      "RequestDate": "2019-11-20+05:30",
+      "SourceSystemRequestNo": "03354200",
+      "TotalCommissionAmount": "-20.00",
+      "TotalReceivableAmount": "-200.00",
+      "ValidateCountYN": "N"
+    },
+    "Transaction": 
+	{
+        "ApplicationNo": "DAP23${RDATETIME}",
+        "AuditFlag": "N",
+        "BillType": "AGENCY",
+        "BrokerNo": "DGB23${RDATETIME}",
+		"AccountNo": "",
+		"CommissionPaidBasis": "WRITTEN",
+        "Country": "USA",
+        "CrtCode": "01",
+        "DiscountPlanCode": "XX",
+        "Entities": {
+          "Acronym": "ABC",
+          "Addresses": {
+            "Address1": "PO BOX 5632 ",
+            "AddressType": "MAILING",
+            "AlternateEmailId": "JULIO@gmail.com",
+            "AlternateFaxNo": "12345",
+            "AlternatePhoneNo": "44444",
+            "City": "Jasper",
+            "Country": "USA",
+            "County": "01",
+            "FirstName": "JULIO",
+            "FullName": "JULIO RODRIGUEZ",
+            "LastName": "RODRIGUEZ",
+            "PrimaryAddressYN": "Y",
+            "PrimaryEmailId": "MARK@gmail.com",
+            "PrimaryFaxNo": "11111",
+            "PrimaryPhoneNo": "55555",
+            "State": "FL",
+            "ZipCode": "9895501"
+          },
+          "BillingEntityYn": "N",
+          "EntityType": "INSURED"
+        },
+		
+
+		
+        "FeedingSystem": "DWR",
+        "InvoicingCurrency": "USD",
+		
+        "LineOfBusiness": "HL",
+        "NoncancellableFlag": "N",
+        "NonRenewalFlag": "N",
+        "OperatingCompany": "01",
+        "OperatingRegion": "01",
+        "PaymentMethod": "CHECK",
+        "PaymentPlan": "S12",
+        "PolicyEffectiveDate": "2019-01-01+05:30",
+        "PolicyNo": "DAP23${RDATETIME}",
+        "PrimaryLocation": "P1",
+        "ProductCode": "A",
+        "ProgramType": "COMMAUTO",
+        "ReceivableDetails": [
+          {
+            "CommissionPercent": "10.00",
+            "ReceivableCode": "PREMIUM",
+            "TransactionCurrencyCommissionAmount": "-20.00",
+            "TransactionCurrencyReceivableAmount": "-200.00"
+          }
+		 
+		  ],
+		  
+		  
+        "SiuFlag": "N",
+        "SourceAccountingMonth": "201911",
+        "SourcePolicyId": "DAP23${RDATETIME}",
+        "SourcePolicyMod": "0",
+        "SourceSystem": "REN",
+        "SourceSystemProcessDate": "2019-11-20+05:30",
+        "SourceSystemRemarks": "REMARK",
+        "SourceTransactionRequestNo": "108",
+        "StateCode": "FL",
+        "SublineOfBusiness": "BONDS",
+        "TransactionCurrency": "USD",
+        "TransactionEffDate": "2019-01-01+05:30",
+        "TransactionExpiryDate": "2020-01-01+05:30",
+        "TransactionType": "ENDORSEMENT",
+        "UnderwritingCompany": "COMPANY12"
+      },
+	  
+	 }
+}

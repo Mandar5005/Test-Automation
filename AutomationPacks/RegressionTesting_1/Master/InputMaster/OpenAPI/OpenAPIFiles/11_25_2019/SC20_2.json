@@ -1,0 +1,91 @@
+{
+  "InboundPremiumTransaction": {
+    "RequestHeader": {
+      "CountOfRecords": "1",
+      "CountOfTransactions": "1",
+      "RequestDate": "2019-11-25+05:30",
+      "SourceSystemRequestNo": "03354200",
+      "TotalCommissionAmount": "288.33",
+      "TotalReceivableAmount": "5563.40",
+      "ValidateCountYN": "N"
+    },
+    "Transaction": 
+	{
+        "ApplicationNo": "DAP20A${RDATETIME}",
+        "AuditFlag": "N",
+        "BillType": "AGENCY",
+        "BrokerNo": "DBG20${RDATETIME}",
+		"AccountNo": "",
+		"CommissionPaidBasis": "WRITTEN",
+        "Country": "USA",
+        "CrtCode": "01",
+        "DiscountPlanCode": "XX",
+        "Entities": {
+          "Acronym": "ABC",
+          "Addresses": {
+            "Address1": "PO BOX 5632 ",
+            "AddressType": "MAILING",
+            "AlternateEmailId": "JULIO@gmail.com",
+            "AlternateFaxNo": "12345",
+            "AlternatePhoneNo": "44444",
+            "City": "Jasper",
+            "Country": "USA",
+            "County": "01",
+            "FirstName": "JULIO",
+            "FullName": "JULIO RODRIGUEZ",
+            "LastName": "RODRIGUEZ",
+            "PrimaryAddressYN": "Y",
+            "PrimaryEmailId": "MARK@gmail.com",
+            "PrimaryFaxNo": "11111",
+            "PrimaryPhoneNo": "55555",
+            "State": "IL",
+            "ZipCode": "9895501"
+          },
+          "BillingEntityYn": "N",
+          "EntityType": "INSURED"
+        },
+		
+
+		
+        "FeedingSystem": "DWR",
+        "InvoicingCurrency": "USD",
+        "LineOfBusiness": "HL",
+        "NoncancellableFlag": "N",
+        "NonRenewalFlag": "N",
+        "OperatingCompany": "01",
+        "OperatingRegion": "01",
+        "PaymentMethod": "CHECK",
+        "PaymentPlan": "S12",
+        "PolicyEffectiveDate": "2019-01-01+05:30",
+        "PolicyNo": "DAP20A${RDATETIME}",
+        "PrimaryLocation": "P1",
+        "ProductCode": "A",
+        "ProgramType": "COMMAUTO",
+        "ReceivableDetails": [
+          {
+            "CommissionPercent": "6.23",
+            "ReceivableCode": "PREMIUM",
+            "TransactionCurrencyCommissionAmount": "32.79",
+            "TransactionCurrencyReceivableAmount": "526.36"
+          }
+		  ],
+		  
+		  
+        "SiuFlag": "N",
+        "SourceAccountingMonth": "201911",
+        "SourcePolicyId": "DAP20A${RDATETIME}",
+        "SourcePolicyMod": "0",
+        "SourceSystem": "REN",
+        "SourceSystemProcessDate": "2019-11-25+05:30",
+        "SourceSystemRemarks": "REMARK",
+        "SourceTransactionRequestNo": "108",
+        "StateCode": "IL",
+        "SublineOfBusiness": "BONDS",
+        "TransactionCurrency": "USD",
+        "TransactionEffDate": "2019-02-20+05:30",
+        "TransactionExpiryDate": "2020-01-01+05:30",
+        "TransactionType": "REINSTATEMENT",
+        "UnderwritingCompany": "002"
+      },
+    }
+}
