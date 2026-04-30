@@ -1,0 +1,5 @@
+ControlFocus ("Choose File to Upload", "", "Edit1")
+Sleep(3000)
+ControlSetText("Choose File to Upload", "", "Edit1", $CmdLine[1])
+Sleep(3000)
+ControlClick("Choose File to Upload", "","Button1")
