@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 
+          http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+  <!-- Use default local repository -->
+  <!-- <localRepository>~/.m2/repository</localRepository> -->
+
+  <interactiveMode>true</interactiveMode>
+  <offline>false</offline>
+
+  <!-- Optional plugin groups -->
+  <pluginGroups>
+    <pluginGroup>sample.plugin</pluginGroup>
+  </pluginGroups>
+
+  <!-- No proxies configured -->
+  <proxies>
+  </proxies>
+
+  <!-- Servers (kept minimal; you can remove if not needed) -->
+  <servers>
+    <server>
+      <id>central</id>
+      <username></username>
+      <password></password>
+    </server>
+  </servers>
+
+  <!-- IMPORTANT: No mirrors overriding Maven Central -->
+  <mirrors>
+    <!-- EMPTY: Maven will use default central repo -->
+  </mirrors>
+
+  <!-- No custom profiles -->
+  <profiles>
+  </profiles>
+
+  <!-- No active profiles -->
+  <activeProfiles>
+  </activeProfiles>
+
+</settings>
